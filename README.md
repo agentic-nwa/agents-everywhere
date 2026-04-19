@@ -73,7 +73,7 @@ start — open an issue or Discussion.
 ### Search & Research
 - **[Exa](https://exa.ai)** — AI-powered search engine designed specifically for large language models to find and crawl clean web data.
 - **[Firecrawl](https://firecrawl.dev)** — Crawl entire websites and convert them into LLM-ready markdown or structured data.
-- **[Searchable](https://searchable.ai)** — Enterprise search platform that indexes and searches across your cloud apps and local files.
+- **[Searchable](https://searchable.com)** — Enterprise search platform that indexes and searches across your cloud apps and local files.
 - **[Ideabrowser](https://ideabrowser.com)** — Discover and validate trending startup ideas with curated market reports.
 
 ### IDEs
