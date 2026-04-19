@@ -8,5 +8,5 @@
 - [ ] Scope declared (in-repo / new-repo)
 - [ ] Someone named under "Who's in"
 
-<!-- Lazy majority: ≥3 approvals + no unresolved blocks + 7 days open = merge.
-     The lazy-majority-check CI gate enforces this mechanically. -->
+<!-- Lazy majority applies — see GOVERNANCE.md. The lazy-majority-check
+     CI gate enforces it mechanically. -->

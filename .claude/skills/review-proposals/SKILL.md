@@ -7,6 +7,10 @@ description: Use when a community member wants to review and vote on open RFPs. 
 
 When the user wants to review open proposals:
 
+0. **Intro only if not done yet.** If
+   `community/members/<github-handle>.md` doesn't exist and AGENTS.md's
+   intro step didn't already run earlier in the session, offer a 2-minute
+   profile PR using `community/members/TEMPLATE.md`. Otherwise skip.
 1. Run: `gh pr list --repo agentic-nwa/agents-everywhere --state open --search "files:proposals/"`.
 2. For each open PR, read the proposal file on the PR branch:
    `gh pr view <number> --json files,body,title,createdAt,reviews`.
@@ -22,5 +26,6 @@ When the user wants to review open proposals:
    - Block: `gh pr review <number> --request-changes -b "<reason>"`
      (require a reason — blocks without reasons are ignored)
    - Comment: `gh pr review <number> --comment -b "<text>"`
-7. After they vote, remind them of the lazy-majority rule: ≥3 approvals
-   + no unresolved blocks + 7 days open = merge.
+7. Point them at [`GOVERNANCE.md`](../../../GOVERNANCE.md) for the
+   lazy-majority rule. The `lazy-majority-check` CI check enforces it
+   mechanically.

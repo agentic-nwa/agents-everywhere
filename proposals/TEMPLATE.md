@@ -26,15 +26,14 @@ Length: fits on one screen, ~200–400 words.
 <!-- AGENT: Ask — "What would this actually look like? Architecture,
      UX, a paragraph." Offer a diagram if it would help. -->
 
-## In-repo or new repo?
-<!-- AGENT: Ask — "Small tool/notebook/shared lib (in-repo) or
-     standalone product (new repo)?" -->
-- [ ] in-repo
-- [ ] new-repo
-
 ## Who's in
 <!-- AGENT: Ask — "Who's committing to work on this? Names, rough hours.
      'Just me' is a fine answer — just say it." -->
 
 ## Open questions
 <!-- AGENT: Ask — "What don't you know yet? Where do you need help?" -->
+
+## In-repo or new repo?
+<!-- AGENT: Ask — "Based on the shape you described, this feels like [in-repo|new-repo]. Agree? Or explain why the other fits better." If they're unsure, suggest in-repo for small tools/notebooks/shared libs, new-repo for standalone products. -->
+- [ ] in-repo
+- [ ] new-repo

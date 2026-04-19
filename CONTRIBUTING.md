@@ -1,8 +1,18 @@
 # Contributing
 
-Three ways to contribute. All of them are optimized for agents — open the
+Four ways to contribute. All of them are optimized for agents — open the
 repo in Claude Code, Cursor, Codex, or OpenClaw and it will walk you
 through any of these.
+
+## 0. Say hi
+
+Haven't introduced yourself yet? The fastest first commit: drop a short
+profile in `community/members/<your-github-handle>.md`. See
+[`community/members/README.md`](community/members/README.md) — or just
+ask your agent to help you add a profile.
+
+This is the lowest-barrier way to show up. A maintainer glance merges
+it.
 
 ## 1. Propose something to build
 
@@ -13,8 +23,11 @@ Have an idea for what the community should build together?
   `draft-proposal` flow (or read `proposals/TEMPLATE.md` and
   `proposals/0000-example.md`).
 
-Submit as a PR against `/proposals/`. Lazy majority accepts it
-(≥3 approvals + 7-day block window). See `GOVERNANCE.md` for the rule.
+No idea of your own yet? Browse [`proposals/IDEAS.md`](proposals/IDEAS.md)
+and champion one that's open.
+
+Submit as a PR against `/proposals/`. Lazy majority accepts a proposal.
+See [`GOVERNANCE.md`](GOVERNANCE.md) for the rule.
 
 ## 2. Write up a meeting
 

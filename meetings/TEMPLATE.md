@@ -21,8 +21,9 @@ notes exist. Suggest tags based on what they told you.
 
 ## Workshops & talks
 <!-- AGENT: Ask — "Who led something, and what was it about?" List them
-     with a one-line summary each. Link slides/demos if they're in
-     ./slides or ./demos. -->
+     with a one-line summary each. Link slides/demos if any. Create
+     ./slides or ./demos subfolders and drop the materials in only if
+     attendees want to share them. -->
 
 ## Demos
 <!-- AGENT: Ask — "Anyone demo a project? What and what stood out?" -->

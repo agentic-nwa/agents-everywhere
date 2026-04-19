@@ -6,15 +6,17 @@ The rules, kept short on purpose.
 
 We use **lazy majority** for proposals:
 
-- A proposal PR merges when it has **≥3 approvals** and **no unresolved
-  blocking objections for 7 consecutive days**.
+A proposal PR merges when it has **≥3 approvals**, **no unresolved
+blocking reviews**, and **has been open ≥7 days**. All three must hold.
+The `lazy-majority-check` GitHub Action enforces this mechanically.
+
 - Anyone with a GitHub account can approve or block.
 - A block must come with a reason. Blocks without reasons are ignored
   by maintainers.
 - Maintainers do the actual merge. They don't get extra vote weight.
 
-Meeting notes, demos, and knowledge-base contributions don't require
-lazy majority. A single maintainer review is enough.
+Meeting notes, demos, knowledge-base contributions, and member profiles
+don't require lazy majority. A single maintainer review is enough.
 
 ## Branch protection
 
@@ -45,4 +47,4 @@ rotate off, no drama.
 ## Changing these rules
 
 This doc is itself a proposal when you want to change it. Open a PR
-against `GOVERNANCE.md`, lazy-majority applies.
+against `GOVERNANCE.md`; lazy majority applies.

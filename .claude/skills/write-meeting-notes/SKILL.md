@@ -7,6 +7,13 @@ description: Use when a community member wants to write up what happened at an A
 
 When the user wants to write up a meeting:
 
+0. **If they haven't introduced themselves yet, and you haven't already
+   offered in this conversation, offer now.** Check whether
+   `community/members/<github-handle>.md` exists. If not — and if
+   AGENTS.md's intro step didn't already run earlier in the session —
+   offer a quick profile PR as a 2-minute first commit using
+   `community/members/TEMPLATE.md` (3 short questions). Otherwise, skip
+   and proceed to the flow below.
 1. Read `meetings/TEMPLATE.md`.
 2. Ask for the meeting date (YYYY-MM-DD) and a short title.
 3. Pick a slug (kebab-case) and create the folder

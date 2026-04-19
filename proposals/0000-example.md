@@ -33,12 +33,6 @@ A Python package in `/project/eval-harness/` with:
 
 Runs locally. No hosted service in v1.
 
-## In-repo or new repo?
-- [x] in-repo
-- [ ] new-repo
-
-Small enough to live here. If it grows into a product, spin out later.
-
 ## Who's in
 
 - @example-contributor — 4 hrs/week
@@ -49,3 +43,9 @@ Small enough to live here. If it grows into a product, spin out later.
 - Do we version the task files or let them drift?
 - Scoring: LLM-judge or rule-based? Probably start rule-based.
 - How do we keep sensitive eval data out of the public repo?
+
+## In-repo or new repo?
+- [x] in-repo
+- [ ] new-repo
+
+Small enough to live here. If it grows into a product, spin out later.

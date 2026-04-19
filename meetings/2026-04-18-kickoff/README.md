@@ -5,6 +5,10 @@ tags: [kickoff, community, hackathon, unconference]
 attendees: NWA builders at Arkade, Bentonville
 ---
 
+> **Recap in progress.** If you attended the kickoff, you're invited to
+> PR this file with the workshop you led, demo you saw, or link you want
+> shared. Rough beats polished — ship it.
+
 ## What happened
 
 Inaugural meetup of the Agents Everywhere community. Half hackathon,
