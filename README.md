@@ -31,8 +31,8 @@ The official community github for Agents Everywhere All at Once
 - **[Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs)** — Anthropic Labs product for creating polished designs, prototypes, slides, and one-pagers through conversation with Claude.
 - **[Visual Concept Explainer](https://mcpmarket.com/tools/skills/visual-concept-explainer)** — Claude Code skill that turns raw content into high-fidelity educational infographics and visual explainers.
 
-### Publishing & Docs
-- **[Quarto (QMD)](https://quarto.org)** — Open-source scientific and technical publishing system using `.qmd` files for reproducible docs, slides, and sites across Python, R, Julia, and Observable.
+### Search & Knowledge
+- **[QMD (Query Markup Documents)](https://github.com/tobi/qmd)** — On-device search engine for your markdown notes, docs, and knowledge bases — combines BM25 full-text, vector semantic search, and LLM re-ranking, all running locally.
 
 ## References
 
