@@ -9,12 +9,13 @@ The official community github for Agents Everywhere All at Once
 - **[Searchable](https://searchable.ai)** — Enterprise search platform that indexes and searches across your cloud apps and local files.
 - **[Ideabrowser](https://ideabrowser.com)** — Discover and validate trending startup ideas with curated market reports.
 
-### Coding Agents & IDEs
-- **[Claude Code](https://claude.com/claude-code)** — Anthropic's official coding agent. Runs in the terminal, desktop app, web, and IDE extensions.
+### IDEs
 - **[Cursor](https://cursor.com)** — AI-native code editor with agent and chat built in.
 - **[Antigravity](https://antigravity.google)** — Google's agentic IDE for orchestrating coding agents across editor, terminal, and browser.
 
 ### Agent Harnesses
+- **[Claude Code](https://claude.com/claude-code)** — Anthropic's official coding agent. Runs in the terminal, desktop app, web, and IDE extensions.
+- **[OpenAI Codex](https://github.com/openai/codex)** — OpenAI's coding agent CLI that runs in your terminal, executes commands, and edits files with your approval.
 - **[Claude Cowork](https://www.anthropic.com/product/claude-cowork)** — Anthropic's agentic AI for knowledge work — runs on your desktop and completes multi-step tasks across files, folders, and apps.
 - **[OpenClaw](https://github.com/openclaw/openclaw)** — Open-source personal AI assistant that runs on any OS and orchestrates external coding harnesses (Claude Code, Codex, Gemini CLI, etc.) via the Agent Client Protocol.
 - **[Hermes Agent](https://hermes-agent.nousresearch.com/)** — Nous Research's self-improving AI agent that runs on your server, remembers what it learns, and auto-generates reusable skills.
