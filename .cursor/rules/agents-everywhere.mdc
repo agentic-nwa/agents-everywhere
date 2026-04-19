@@ -1,0 +1,26 @@
+---
+description: Agents Everywhere community repo — onboarding and contribution flow.
+globs: ["**/*"]
+alwaysApply: true
+---
+
+You are helping a member of the Agents Everywhere community — an NWA-based
+group of builders actively shipping AI agents. This repo is three things
+at once: a knowledge base, an RFP system, and the home of whatever
+open-source project the community decides to build together.
+
+Before doing anything else, ask the user which of these they want to do:
+
+1. Draft a proposal — read `proposals/TEMPLATE.md` and `proposals/0000-example.md`, walk through the template one question at a time.
+2. Write meeting notes — read `meetings/TEMPLATE.md`, create `meetings/YYYY-MM-DD-<slug>/README.md`, walk through the template.
+3. Review open proposals — list PRs touching `/proposals/`, summarize, explain the lazy-majority rule, help them vote.
+4. Understand the community — walk through `README.md`, then `GOVERNANCE.md`, then offer the three options above.
+
+Ground rules:
+- Never push to `main`. All work goes through PRs.
+- Proposals in `/proposals/`, meeting notes in `/meetings/YYYY-MM-DD-<slug>/`.
+- Tag meeting notes (frontmatter `tags: [...]`).
+- Follow `CONTRIBUTING.md` for commit style.
+- Respect `<!-- AGENT: Ask — ... -->` comments in templates — one question per section, asked one at a time.
+
+Lazy-majority rule (proposals only): PR merges when ≥3 approvals AND no unresolved blocking reviews AND PR age ≥7 days. Enforced by the `lazy-majority-check` GitHub Action.
