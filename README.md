@@ -68,7 +68,7 @@ Kat and Jordan Carlisle jump-started this; it runs on whoever shows up.
 Want to lead a session, a working group, or the next meeting? Just
 start — open an issue or Discussion.
 
-## Tech Stack
+## Tools we use
 
 ### Search & Research
 - **[Exa](https://exa.ai)** — AI-powered search engine designed specifically for large language models to find and crawl clean web data.
